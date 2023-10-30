@@ -1,0 +1,73 @@
+[
+    {
+        "id": "about-us-page-section",
+        "sectionOne": {
+            "subTitle": "About Us.",
+            "title": "<span>Nurul-Yateem Foundation</span> is The Non Profitable Organization.",
+            "image1": "../images/about/4.jpg",
+            "content1": "Nurul-Yateem, a distinguished non-profit organization, is a beacon of compassion and dedication. Our mission is to make a profound impact on the lives of children and families in need. Through unwavering commitment and a legacy of benevolence, we strive to create a brighter future for those we serve. Join us in our journey of making a difference that truly matters.",
+            "content2": "We, at Nurul-Yateem, stand united by a noble purpose: to provide unwavering support and care for the underprivileged. With a rich history of serving those less fortunate, we aim to nurture and empower young lives, instilling hope, knowledge, and resilience. Our organization is a testament to the values of compassion, integrity, and a collective belief in the potential of every child. We invite you to explore our journey, where every act of kindness and generosity finds its place, and every smile we create strengthens our commitment to a better world.",
+            "mission": [
+                {
+                    "id": "mission",
+                    "VerientClassName": "bg-color1",
+                    "title": "Mission",
+                    "text1": "At Nurul-Yateem, our mission is to provide unwavering support and care to the underprivileged, nurturing and empowering young lives with hope, knowledge, and resilience. We embody values of compassion, integrity, and a collective belief in every child's potential. Explore our journey, where kindness and generosity shape a brighter world.",
+                    "text2": ""
+                },
+                {
+                    "id": "vission",
+                    "VerientClassName": "bg-color2",
+                    "title": "Vision",
+                    "text1": "We envision a world where every child's potential is nurtured, hope and knowledge empower them to overcome adversity, and acts of kindness and generosity shape a brighter future. We stand united in our mission to serve the underprivileged, embodying compassion, integrity, and an unwavering commitment to creating a better world, one smile at a time.",
+                    "text2": ""
+                }
+            ]
+        },
+        "sectionTwo": {
+            "subTitle1": "About Us.",
+            "title1": "Countless children are ensnared by the grasp of poverty, hindering their growth, learning, and development. We are devoted to breaking these chains.",
+            "content1_2": "Poverty obstructs children's growth, learning, and development, preventing them from realizing their God-given potential. Our child development model takes a holistic approach, tending to each child's physical, mental, emotional, and spiritual needs. Join us in our mission to reduce extreme child poverty by becoming a child sponsor.",
+            "content2_2": "We, at Nurul-Yateem, stand united by a noble purpose: to provide unwavering support and care for the underprivileged. With a rich history of serving those less fortunate, we aim to nurture and empower young lives, instilling hope, knowledge, and resilience. Our organization is a testament to the values of compassion, integrity, and a collective belief in the potential of every child. We invite you to explore our journey, where every act of kindness and generosity finds its place, and every smile we create strengthens our commitment to a better world."
+        },
+        "sectionThree": {
+            "title2": "<span>Our influence</span> during the past year",
+            "box": [
+                {
+                    "id": "1",
+                    "figure": "Educational Access",
+                    "content": "Nurul Yateem Foundation has opened doors to quality education, establishing schools and scholarship programs that enrich young minds."
+                },
+                {
+                    "id": "2",
+                    "figure": "Nutrition Support",
+                    "content": "We've combated hunger and malnutrition by distributing millions of food packages, ensuring children get the nutrition they need."
+                },
+                {
+                    "id": "3",
+                    "figure": "Medic-Care Services",
+                    "content": "From surgeries to trauma counseling, we've provided critical medical care, promoting the health of vulnerable children."
+                },
+                {
+                    "id": "4",
+                    "figure": "Disaster Response",
+                    "content": "We're on standby to aid vulnerable communities during disasters, offering millions in resources for relief efforts."
+                },
+                {
+                    "id": "5",
+                    "figure": "Hygiene Initiatives",
+                    "content": "Our hygiene kits combat diseases like COVID-19, fostering better health and sanitation in impoverished areas."
+                },
+                {
+                    "id": "6",
+                    "figure": "Emotional Well-being",
+                    "content": "Sponsors have sent encouraging letters, instilling hope and inspiring brighter futures."
+                }
+            ]
+        },
+        "sectionFour": {
+            "title3": "We Ensure Your Contributions Make a <span?>Positive Impact</span>",
+            "content2_3": "Our commitment to the utmost financial integrity and accountability means that your donations are exclusively used for their intended purposes. We conduct regular audits to guarantee the effective management of our programs and the proper allocation of funds. We strike a balance between keeping administrative and fundraising expenses low while maintaining high-quality programs."
+        }
+    }
+]

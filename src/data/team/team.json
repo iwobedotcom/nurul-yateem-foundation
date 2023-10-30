@@ -1,0 +1,40 @@
+[
+    {
+        "id": "team",
+        "section_title": {
+            "title": "The People Behind <span>Nurul-Yateem Foundation</span>"
+        },
+        "team": [
+            {
+                "images": "../../data/images/team/1.jpg",
+                "name": "Harvey Harrington",
+                "designation": "Senior Volunteer"
+            },
+            {
+                "images": "../../data/images/team/2.jpg",
+                "name": "Alejandra Bobbitt",
+                "designation": "Senior Volunteer"
+            },
+            {
+                "images": "../../data/images/team/3.jpg",
+                "name": "Sherika Hankins",
+                "designation": "Senior Volunteer"
+            },
+            {
+                "images": "../../data/images/team/4.jpg",
+                "name": "Destiny Kendall",
+                "designation": "Senior Volunteer"
+            },
+            {
+                "images": "../../data/images/team/5.jpg",
+                "name": "Marleen Larry",
+                "designation": "Senior Volunteer"
+            },
+            {
+                "images": "../../data/images/team/6.jpg",
+                "name": "Sherika Hankins",
+                "designation": "Senior Volunteer"
+            }
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "footerAbout": "At Nurul Yateem Foundation, we connect orphans with caring guardians, offering love, care, and support. Together, we nurture a promising future for vulnerable children.",
+        "footerShapeImage": "../../data/images/shape/footer-line.png",
+        "menuTitle": "Quick Links",
+        "subscribeTitle": "Join Us!",
+        "subscribeSubTitle": "Join our community of 2,000+ subscribers!",
+        "quickLink": [
+            {
+                "text": "About Us",
+                "path": "/about-us"
+            },
+            {
+                "text": "Sponsor a Child",
+                "path": "#"
+            },
+            {
+                "text": "Our Work",
+                "path": "#"
+            },
+            {
+                "text": "Blog",
+                "path": "#"
+            },
+            {
+                "text": "Contact Us",
+                "path": "#"
+            }
+        ],
+        "quickLinkTwo": [
+            {
+                "text": "Become a Guardian",
+                "path": "#"
+            },
+            {
+                "text": "My Account",
+                "path": "#"
+            },
+            {
+                "text": "Give Donation",
+                "path": "#"
+            },
+            {
+                "text": "Press Center",
+                "path": "#"
+            },
+            {
+                "text": "Careers",
+                "path": "#"
+            }
+        ]
+    }
+]
