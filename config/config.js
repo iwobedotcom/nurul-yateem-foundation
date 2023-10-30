@@ -27,7 +27,7 @@ module.exports = {
         "Empowerment",
     ],
     image: "",
-    siteUrl: "",
+    siteUrl: "http://example.com",
     pathPrefix: "/",
     localUrl: "http://localhost:8000",
     canonical: "",
