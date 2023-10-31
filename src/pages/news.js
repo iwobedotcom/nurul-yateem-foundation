@@ -11,11 +11,11 @@ import BlogSidebar from "../containers/blog/blog-sideber";
 const BlogPage = ({ location, pageContext }) => {
     return (
         <Layout>
-            <SEO title="Blog" pathname="/" />
+            <SEO title="News" pathname="/" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                title="Blog"
+                title="Explore Our Newsfeed"
             />
             <div
                 className="blog-grid-area"

@@ -26,7 +26,7 @@ const PostList = ({ location, data, pageContext, ...props }) => {
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                title="Blog Post"
+                title="Recent News"
             />
             <BlogDetailsArea>
                 <Container>

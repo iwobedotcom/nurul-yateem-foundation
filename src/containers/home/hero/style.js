@@ -7,7 +7,8 @@ export const Section = styled.section`
 `;
 
 export const HomeSliderItem = styled.div`
-    background-image: url(${heroBg});
+    // background-image: url(${heroBg});
+    background-color: ${themeGet("colors.white")};
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -16,20 +17,20 @@ export const HomeSliderItem = styled.div`
     display: flex;
     padding-top: 40px;
     position: relative;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(
-            0,
-            0,
-            0,
-            0.5
-        ); /* Adjust the color and opacity as needed */
-    }
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background-color: rgba(
+    //         0,
+    //         0,
+    //         0,
+    //         0.7
+    //     ); /* Adjust the color and opacity as needed */
+    // }
     @media (min-width: 1400px) and (max-width: 1799px) {
         .container {
             max-width: 1397px;
@@ -87,29 +88,30 @@ export const SubTitle = styled.div`
 export const HeroTitleWrap = styled.div`
     margin-bottom: 30px;
     h1 {
-        color: ${themeGet("colors.white")};
+        color: #333;
         position: relative;
         z-index: 1;
-        font-size: ${themeGet("fontSize.h1.0")};
+        // font-size: ${themeGet("fontSize.h1.5")};
+        font-size: 80px;
         line-height: 1.2;
-        ${device.medium} {
-            font-size: ${themeGet("fontSize.h1.2")};
-        }
-        ${device.large} {
-            font-size: ${themeGet("fontSize.h1.3")};
-        }
-        ${device.xlarge} {
-            font-size: ${themeGet("fontSize.h1.4")};
-            line-height: 1.0934;
-        }
-        ${device.xxlarge} {
-            font-size: ${themeGet("fontSize.h1.5")};
-            line-height: 1.0934;
-        }
-        ${device.xxlarge} {
-            font-size: ${themeGet("fontSize.h1.6")};
-            line-height: 1.0934;
-        }
+        // ${device.medium} {
+        //     font-size: ${themeGet("fontSize.h1.2")};
+        // }
+        // ${device.large} {
+        //     font-size: ${themeGet("fontSize.h1.3")};
+        // }
+        // ${device.xlarge} {
+        //     font-size: ${themeGet("fontSize.h1.4")};
+        //     line-height: 1.0934;
+        // }
+        // ${device.xxlarge} {
+        //     font-size: ${themeGet("fontSize.h1.5")};
+        //     line-height: 1.0934;
+        // }
+        // ${device.xxlarge} {
+        //     font-size: ${themeGet("fontSize.h1.6")};
+        //     line-height: 1.0934;
+        // }
 
         span {
             display: inline-block;

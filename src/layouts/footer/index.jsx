@@ -21,6 +21,7 @@ import {
     WidgetSubTitle,
 } from "./style";
 import NewsletterForm from "../../components/newsletter-form";
+import FooterLogo from "../../components/logo-footer";
 
 const Footer = () => {
     const footerQuery = useStaticQuery(graphql`
@@ -65,7 +66,7 @@ const Footer = () => {
                         <Col sm={12} md={6} lg={4} xl={4}>
                             <WidgetItem>
                                 <AboutWidget>
-                                    <Logo className="footer-logo" />
+                                    <FooterLogo className="footer-logo" />
                                     <AboutWidgetText>
                                         {footerAbout}
                                     </AboutWidgetText>

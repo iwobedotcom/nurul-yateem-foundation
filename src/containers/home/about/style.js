@@ -37,7 +37,7 @@ export const Area = styled.section`
             0,
             0,
             0,
-            0.5
+            0.7
         ); /* Adjust the color and opacity as needed */
     }
     & .img-one {
@@ -96,7 +96,7 @@ export const Thumb = styled.div``;
 
 export const AboutTextStyle = styled.p`
     color: ${themeGet("colors.white")};
-    font-family: "Yeseva One", cursive;
+    font-family: "Calibri", cursive;
     font-size: 22px;
     line-height: 1.364;
     margin-bottom: 26px;

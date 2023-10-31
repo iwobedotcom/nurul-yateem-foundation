@@ -2,6 +2,64 @@
 import styled, { themeGet, device } from "@theme/utils";
 import aboutBg from "@data/images/about/bg.jpg";
 
+export const SectionArea = styled.section`
+    position: relative;
+    padding: 46px 0 0px;
+    background-color: ${(props) => (props.dark ? "#001d23" : "")};
+    ${device.small} {
+        padding: 48px 0 08px;
+    }
+    ${device.medium} {
+        padding: 88px 0 92px;
+    }
+    ${device.large} {
+        padding: 88px 0 92px;
+    }
+    ${device.xlarge} {
+        padding: 146px 0 15px;
+    }
+
+    position: relative;
+
+    &:before {
+        background-color: #f7f7f7;
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        width: calc(50% - 315px);
+        z-index: -1;
+    }
+    & .img-one {
+    }
+`;
+
+export const LayerStyle = styled.div`
+    margin-top: 0px;
+    position: relative;
+
+    .row > [class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .row.m-0 {
+        margin: 0 !important;
+    }
+    .img-two {
+        margin-left: 0px;
+        ${device.small} {
+            margin-left: 0px;
+        }
+        ${device.large} {
+            margin-left: 0px;
+        }
+        ${device.xlarge} {
+            margin-left: -23px;
+        }
+    }
+`;
+
 export const DetailsArea = styled.section`
     padding: 70px 0 70px;
     ${device.medium} {
@@ -70,7 +128,7 @@ export const Area = styled.section`
 
 export const AboutTextStyle = styled.p`
     color: ${(props) => (props.primary ? themeGet("colors.white") : "")};
-    font-family: "Yeseva One", cursive;
+    font-family: "Calibri", cursive;
     font-size: 22px;
     line-height: 1.364;
     margin-bottom: 26px;
@@ -105,6 +163,7 @@ export const CausesDetailsContent = styled.div`
 export const CausesDetails = styled.div``;
 export const Thumb = styled.div``;
 export const CauseTitle = styled.h4`
+    font-size: 40px;
     margin-bottom: 25px;
     margin-top: 25px;
 `;

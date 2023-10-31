@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 
 export const createStyles = (theme, color, size, shape, variant) => css`
     cursor: pointer;
+    font-family: ${theme.fonts.primary};
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -34,24 +35,15 @@ export const createStyles = (theme, color, size, shape, variant) => css`
     ${color === "primary" &&
     css`
         background: ${theme.colors.primary};
-        color: ${themeGet("colors.white")};
+        color: ${theme.colors.white};
         &:hover {
-            color: ${themeGet("colors.white")};
+            color: ${theme.colors.white};
         }
     `}
     ${color === "secondary" &&
     css`
         background: ${theme.colors.secondary};
-        color: ${themeGet("colors.white")};
-    `}
-    ${color === "light" &&
-    css`
-        background-color: transparent;
-        border-color: ${themeGet("colors.white")};
-        padding: 10px 20px;
-        font-size: 15px;
-        min-height: 45px;
-        min-width: 150px;
+        color: ${theme.colors.white};
     `}
     
     ${color === "outlined-transparent" &&
@@ -70,13 +62,13 @@ export const createStyles = (theme, color, size, shape, variant) => css`
         display: inline-block;
         padding: 2px !important;
         z-index: 1;
-        background: ${themeGet("colors.secondary")};
+        background: ${theme.colors.secondary};
         background: ${theme.colors.gradient};
         min-height: 40px;
         line-height: 40px;
         span {
             display: block;
-            background: ${themeGet("colors.secondary")};
+            background: ${theme.colors.secondary};
             background: ${theme.colors.gradient};
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -114,7 +106,7 @@ export const createStyles = (theme, color, size, shape, variant) => css`
         transform: translate(-50%, -50%);
         transition: 0.3s;
         background: ${theme.colors.gradient};
-        color: ${themeGet("colors.white")};
+        color: ${theme.colors.white};
         display: inline-block;
         border: transparent;
         font-weight: 600;
@@ -124,7 +116,7 @@ export const createStyles = (theme, color, size, shape, variant) => css`
     ${color === "gradient" &&
     css`
         background: ${theme.colors.gradient};
-        color: #ecf3e8;
+        color: ${theme.colors.white};
         display: inline-block;
         position: relative;
         transition: 0.3s;
@@ -156,7 +148,7 @@ export const createStyles = (theme, color, size, shape, variant) => css`
             z-index: -1;
         }
         &:hover {
-            color: ${themeGet("colors.white")};
+            color: ${theme.colors.white};
             &:before {
                 border-radius: 32.5px;
                 bottom: 0;
@@ -175,6 +167,62 @@ export const createStyles = (theme, color, size, shape, variant) => css`
             }
         }
     `}
+
+    ${color === "light" &&
+    css`
+        background: ${theme.colors.transparent};
+        color: ${theme.colors.text};
+        display: inline-block;
+        position: relative;
+        transition: 0.3s;
+        z-index: 1;
+        overflow: hidden;
+        text-align: center;
+        &:before {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            bottom: -40px;
+            content: "";
+            height: 65px;
+            left: -27px;
+            position: absolute;
+            width: 65px;
+            transition: 0.5s;
+            z-index: -1;
+        }
+        &:after {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            content: "";
+            height: 65px;
+            position: absolute;
+            right: -27px;
+            top: -40px;
+            width: 65px;
+            transition: 0.5s;
+            z-index: -1;
+        }
+        &:hover {
+            color: ${theme.colors.primary};
+            &:before {
+                border-radius: 32.5px;
+                bottom: 0;
+                height: 100%;
+                left: 0;
+                opacity: 0;
+                width: 100%;
+            }
+            &:after {
+                border-radius: 32.5px;
+                height: 100%;
+                opacity: 0;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+        }
+    `}
+
     ${size === "xsmall" &&
     css`
         border-radius: 19px;
@@ -234,13 +282,18 @@ export const createStyles = (theme, color, size, shape, variant) => css`
         border-radius: 32.5px;
     `}
 
+     ${shape === "rectangle" &&
+    css`
+        border-radius: 0px;
+    `}
+
     ${variant === "outlined" &&
     css`
         background: transparent;
         color: ${theme.colors.white};
         border: 2px solid #d7d7d7;
         &:hover {
-            background: ${theme.colors.gradient};
+            background: ${theme.colors.primary};
             border: 2px solid ${theme.colors.gradient};
             color: ${theme.colors.white};
         }

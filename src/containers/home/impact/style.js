@@ -18,7 +18,7 @@ export const SectionArea = styled.section`
 
 export const ImpactTextStyle = styled.p`
     /* color: ${themeGet("colors.white")}; */
-    font-family: "Yeseva One", cursive;
+    font-family: "Calibri", cursive;
     text-align: start;
     font-size: 22px;
     line-height: 1.364;

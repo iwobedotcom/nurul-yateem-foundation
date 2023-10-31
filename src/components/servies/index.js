@@ -46,6 +46,7 @@ const ServiceItem = ({
                     size="small"
                     variant="outlined"
                     color="light"
+                    shape="rectangle"
                     sx={{ color: "#fff" }}
                 >
                     Learn More{" "}

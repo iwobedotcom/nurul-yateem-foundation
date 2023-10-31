@@ -35,7 +35,12 @@ const NewsletterForm = () => {
                     </Col>
                     <Col md={12}>
                         <div className="form-group mb-0">
-                            <Button type="submit" color="gradient">
+                            <Button
+                                type="submit"
+                                color="gradient"
+                                shape="rectangle"
+                                size="small"
+                            >
                                 Subscribe
                             </Button>
                         </div>

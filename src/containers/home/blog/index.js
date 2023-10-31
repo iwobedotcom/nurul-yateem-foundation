@@ -45,7 +45,7 @@ const LatestBlog = () => {
                             sx={{
                                 mb: ["30px", "50px", "80px", "110", "123px"],
                             }}
-                            subTitle={"Explore Our Blog"}
+                            subTitle={"Our Newsfeed."}
                             title={"Discover Insights, Stories, and Updates"}
                         />
                     </Col>

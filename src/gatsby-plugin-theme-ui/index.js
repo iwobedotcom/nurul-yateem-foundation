@@ -1,5 +1,6 @@
 const theme = {
     colors: {
+        transparent: "transparent !important",
         primary: "#3e8914",
         text: "#333",
         heading: "#414141",
@@ -25,10 +26,10 @@ const theme = {
         alabaster: "#fafafa",
         mystic: "#e1e8ed",
         facebook: "#3b5998",
-        gradient: "linear-gradient(to right, #5fad41 0%, #3e8914 100%)",
+        gradient: "linear-gradient(to right, #3e8914 0%, #3e8914 100%)",
     },
     fontSize: {
-        body: "16px",
+        body: "18px",
         h1: ["30px", "38px", "38px", "50px", "60px", "75px"],
         h2: ["30px", "36px", "40px", "50px"],
         h3: ["22px", "24px", "38px"],
@@ -37,8 +38,9 @@ const theme = {
         h6: ["16px", "18px"],
     },
     fonts: {
-        body: `'Roboto', sans-serif`,
-        heading: `'Yeseva One'`,
+        body: `'Calibri', sans-serif`,
+        heading: `'Poppins Extrabold', sans-serif`,
+        primary: `'Poppins',  sans-serif`,
     },
     fontWeights: {
         body: 400,

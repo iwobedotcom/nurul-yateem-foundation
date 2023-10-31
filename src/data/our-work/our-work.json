@@ -2,7 +2,7 @@
     {
         "iconImage": "../images/icons/s1.png",
         "title": "Educational Support",
-        "subtitle": "Unlocking Knowledge",
+        "subtitle": "Empowering Through Education",
         "parText": "We provide access to quality education, ensuring that every orphaned child has the opportunity to learn, and build a brighter future.",
         "itemClassName": "item-one",
         "image": "../images/causes/01.jpg",
@@ -13,7 +13,7 @@
     {
         "iconImage": "../images/icons/s2.png",
         "title": "Healthcare Assistance",
-        "subtitle": "Caring for Their Well-being",
+        "subtitle": "Child Health Initiatives",
         "parText": "Our foundation offers healthcare services to protect the health of vulnerable children, ensuring they receive the care they deserve.",
         "itemClassName": "item-two",
         "image": "../images/causes/02.jpg",
@@ -23,9 +23,9 @@
     },
     {
         "iconImage": "../images/icons/s3.png",
-        "title": "Mentorship and Guidance",
+        "title": "Mentorship & Guidance",
         "subtitle": "Nurturing Young Minds",
-        "parText": "We offer mentorship and guidance to empower orphaned children, helping them develop essential life skills and confidence for a successful future.",
+        "parText": "We offer mentorship and guidance to empower orphaned children, helping them develop essential life skills for a successful future.",
         "itemClassName": "item-three",
         "image": "../images/causes/03.jpg",
         "destails1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",

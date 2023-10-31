@@ -54,8 +54,8 @@
         ]
     },
     {
-        "text": "Blog",
-        "link": "/blog",
+        "text": "News",
+        "link": "/news",
         "isSubmenu": false
     },
     {

@@ -69,7 +69,7 @@ const ChangeArea = () => {
                                 title={title}
                                 subTitle={subTitle}
                             />
-                            <Button path="#" color="gradient">
+                            <Button path="#" color="gradient" shape="rectangle">
                                 Become a Guardian{" "}
                                 <i className="flaticon-right-arrow"></i>
                             </Button>

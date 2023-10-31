@@ -52,7 +52,7 @@ const SinglePosts = ({ data, location, pageContext }) => {
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                title="Blog Details"
+                title={post.title}
             />
             <BlogDetailsArea>
                 <Container>

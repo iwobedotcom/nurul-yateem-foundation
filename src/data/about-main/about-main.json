@@ -13,14 +13,16 @@
                     "VerientClassName": "bg-color1",
                     "title": "Mission",
                     "text1": "At Nurul-Yateem, our mission is to provide unwavering support and care to the underprivileged, nurturing and empowering young lives with hope, knowledge, and resilience. We embody values of compassion, integrity, and a collective belief in every child's potential. Explore our journey, where kindness and generosity shape a brighter world.",
-                    "text2": ""
+                    "text2": "",
+                    "url": "/about-us/vision-and-mission/"
                 },
                 {
                     "id": "vission",
                     "VerientClassName": "bg-color2",
                     "title": "Vision",
-                    "text1": "We envision a world where every child's potential is nurtured, hope and knowledge empower them to overcome adversity, and acts of kindness and generosity shape a brighter future. We stand united in our mission to serve the underprivileged, embodying compassion, integrity, and an unwavering commitment to creating a better world, one smile at a time.",
-                    "text2": ""
+                    "text1": "We envision a world where every child's potential is nurtured, hope and knowledge empower them to overcome adversity, and acts of kindness and generosity shape a brighter future. We stand united in our mission to serve the underprivileged, embodying compassion, integrity, and an unwavering commitment to creating a better world.",
+                    "text2": "",
+                    "url": "/about-us/vision-and-mission/"
                 }
             ]
         },
@@ -35,31 +37,37 @@
             "box": [
                 {
                     "id": "1",
+                    "icon": "icofont-education",
                     "figure": "Educational Access",
                     "content": "Nurul Yateem Foundation has opened doors to quality education, establishing schools and scholarship programs that enrich young minds."
                 },
                 {
                     "id": "2",
+                    "icon": "icofont-food-basket",
                     "figure": "Nutrition Support",
                     "content": "We've combated hunger and malnutrition by distributing millions of food packages, ensuring children get the nutrition they need."
                 },
                 {
                     "id": "3",
+                    "icon": "icofont-hospital",
                     "figure": "Medic-Care Services",
                     "content": "From surgeries to trauma counseling, we've provided critical medical care, promoting the health of vulnerable children."
                 },
                 {
                     "id": "4",
+                    "icon": "icofont-ui-timer",
                     "figure": "Disaster Response",
                     "content": "We're on standby to aid vulnerable communities during disasters, offering millions in resources for relief efforts."
                 },
                 {
                     "id": "5",
+                    "icon": "icofont-nursing-home",
                     "figure": "Hygiene Initiatives",
                     "content": "Our hygiene kits combat diseases like COVID-19, fostering better health and sanitation in impoverished areas."
                 },
                 {
                     "id": "6",
+                    "icon": "icofont-heart-eyes",
                     "figure": "Emotional Well-being",
                     "content": "Sponsors have sent encouraging letters, instilling hope and inspiring brighter futures."
                 }
@@ -68,6 +76,18 @@
         "sectionFour": {
             "title3": "We Ensure Your Contributions Make a <span?>Positive Impact</span>",
             "content2_3": "Our commitment to the utmost financial integrity and accountability means that your donations are exclusively used for their intended purposes. We conduct regular audits to guarantee the effective management of our programs and the proper allocation of funds. We strike a balance between keeping administrative and fundraising expenses low while maintaining high-quality programs."
+        },
+        "sectionFive": {
+            "title4": "Our <span>Diverse Endeavors</span> and <span>Collective Identity</span>",
+            "image5": "../images/about/5.jpg",
+            "heading4_1": "Our Unique Identity",
+            "heading4_2": "Our Engagements",
+            "content4_1": "Rooted in compassion and integrity, our identity is built on the values of kindness and generosity. We recognize the unique identity of each child we touch, uniting us in our mission to create a better world, one step at a time...",
+            "content4_2": "Our activities encompass a wide spectrum of initiatives, from education to healthcare and beyond. We actively engage in programs that empower communities and individuals, providing support and hope. Together, we are the driving force behind a brighter future for all..."
+        },
+        "sectionSix": {
+            "title5": "At the heart of our journey lies our guiding principles, timeless values that illuminate our path, shaping every decision, and embodying the essence of who we are.",
+            "content5_1": "At Nurul-Yateem Foundation, our motto is simple yet powerful: Together We Rise. We are committed to elevating lives and making a positive impact in the world. Join us in our mission to create a brighter and more compassionate future for all."
         }
     }
 ]

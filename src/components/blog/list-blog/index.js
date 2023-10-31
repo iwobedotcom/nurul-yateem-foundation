@@ -38,7 +38,7 @@ const BlogList = ({
     return (
         <PostItemWrap>
             <PostThumb className="post-hover">
-                <Link to={`/blog/${slug}`}>
+                <Link to={`/news/${slug}`}>
                     <GatsbyImage image={image} alt={title} />
                 </Link>
                 <MetaDate>
@@ -75,12 +75,12 @@ const BlogList = ({
                         )}
                     </MetaBox>
                     <Title>
-                        <Link to={`/blog/${slug}`}>{title}</Link>
+                        <Link to={`/news/${slug}`}>{title}</Link>
                     </Title>
                     <TextDetails>{body}</TextDetails>
                     <Button
                         sx={{ mt: "20px" }}
-                        path={`/blog/${slug}`}
+                        path={`/news/${slug}`}
                         size="small"
                         color="border-gradient"
                     >

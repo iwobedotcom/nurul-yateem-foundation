@@ -1,6 +1,8 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import PropTypes from "prop-types";
+import Button from "@components/ui/button";
+
 import {
     ContentBoxItem,
     Title,
@@ -8,7 +10,7 @@ import {
     DesctionTextTwo,
 } from "./style";
 
-const MissionBox = ({ title, text1, text2, VerientClassName }) => {
+const MissionBox = ({ title, text1, text2, VerientClassName, url }) => {
     return (
         <ContentBoxItem className={`${VerientClassName}`}>
             <Title>{title}</Title>
@@ -19,6 +21,16 @@ const MissionBox = ({ title, text1, text2, VerientClassName }) => {
             />
             <DesctionTextOne>{text1}</DesctionTextOne>
             <DesctionTextTwo>{text2}</DesctionTextTwo>
+            <Button
+                path={url}
+                size="small"
+                variant="outlined"
+                color="light"
+                sx={{ color: "#fff" }}
+            >
+                Learn More{" "}
+                <i sx={{ ml: "8px" }} className="flaticon-right-arrow"></i>
+            </Button>
             <StaticImage
                 className="bg-line-shape"
                 src="../../data/images/shape/line5.png"
@@ -32,6 +44,7 @@ MissionBox.propTypes = {
     title: PropTypes.string,
     text1: PropTypes.string,
     text2: PropTypes.string,
+    url: PropTypes.string,
     VerientClassName: PropTypes.string,
 };
 

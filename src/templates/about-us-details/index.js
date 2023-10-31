@@ -30,8 +30,10 @@ import {
     Area,
     AboutContent,
     AboutTextStyle,
+    SectionArea,
+    LayerStyle,
 } from "./style";
-import LatestBlog from "../../containers/home/blog";
+import Tilt from "react-parallax-tilt";
 
 const AboutUsPage = ({ data, location, pageContext }) => {
     const parts = location.pathname.split("/");
@@ -54,35 +56,46 @@ const AboutUsPage = ({ data, location, pageContext }) => {
                 location={location}
                 title={pageName}
             />
-            <div className="mt-5">
-                <Area>
-                    <Container>
-                        <Row>
-                            <Col lg={12}>
-                                <SectionTitle
-                                    sx={{ mb: "30px" }}
-                                    showImage={false}
-                                    title={aboutUsData.heading}
-                                    subTitle={aboutUsData.subHeading}
-                                />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col lg={9} xl={10}>
-                                <div
-                                    className="content"
-                                    style={{ marginBottom: "25px" }}
-                                >
-                                    <AboutContent>
-                                        <AboutTextStyle primary>
-                                            {aboutUsData.headingPara}
-                                        </AboutTextStyle>
-                                    </AboutContent>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Area>
+            <SectionArea className="mb-0">
+                <Container>
+                    <Row>
+                        <Col lg={4} xl={4}>
+                            <LayerStyle>
+                                <Thumb>
+                                    <Tilt
+                                        className=" js-tilt"
+                                        scale={1.04}
+                                        tiltReverse={true}
+                                        tiltMaxAngleX={15}
+                                        tiltMaxAngleY={15}
+                                        perspective={3000}
+                                        transitionSpeed={4000}
+                                    >
+                                        <GatsbyImage
+                                            image={pageImageOne}
+                                            className="img-one"
+                                            alt="Nurul-Yateem Foundation"
+                                        />
+                                    </Tilt>
+                                </Thumb>
+                            </LayerStyle>
+                        </Col>
+                        <Col lg={8}>
+                            <SectionTitle
+                                sx={{ mb: "30px" }}
+                                showImage={false}
+                                title={aboutUsData.heading}
+                                subTitle={aboutUsData.subHeading}
+                            />
+                            <AboutContent>
+                                <AboutTextStyle>
+                                    {aboutUsData.headingPara}
+                                </AboutTextStyle>
+                            </AboutContent>
+                        </Col>
+                    </Row>
+                    <Row></Row>
+                </Container>
                 <DetailsArea>
                     <Container>
                         <Row>
@@ -100,7 +113,7 @@ const AboutUsPage = ({ data, location, pageContext }) => {
                                         </SingleDetailsText>
                                         <Thumb className="mb-3">
                                             <GatsbyImage
-                                                image={pageImageOne}
+                                                image={pageImageTwo}
                                                 alt="Nurul-Yateem Foundation"
                                             />
                                         </Thumb>
@@ -132,7 +145,7 @@ const AboutUsPage = ({ data, location, pageContext }) => {
                         </Row>
                     </Container>
                 </DetailsArea>
-            </div>
+            </SectionArea>
         </Layout>
     );
 };

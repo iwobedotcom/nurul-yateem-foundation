@@ -107,9 +107,9 @@ const Header = () => {
                                             type="button"
                                             size="small"
                                             path="#"
-                                            color="gradient"
+                                            color="light"
                                         >
-                                            My Account{" "}
+                                            Login{" "}
                                             {/* <i className="flaticon-right-arrow"></i> */}
                                         </Button>
                                         <Button
@@ -118,6 +118,7 @@ const Header = () => {
                                             size="small"
                                             path="#"
                                             color="gradient"
+                                            shape="rectangle"
                                         >
                                             Become a Sponsor{" "}
                                             {/* <i className="flaticon-right-arrow"></i> */}

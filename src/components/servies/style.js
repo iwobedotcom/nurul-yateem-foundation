@@ -21,7 +21,7 @@ export const IconBoxitem = styled.div`
             0,
             0,
             0,
-            0.5
+            0.7
         ); /* Adjust the color and opacity as needed */
     }
     &.item-two {

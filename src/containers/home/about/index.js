@@ -154,8 +154,16 @@ const AboutArea = () => {
                                         />
                                     </ListLi>
                                 </LlistIconStyle> */}
-                                <Button path="/about-us" color="gradient">
-                                    Learn More...
+                                <Button
+                                    path="/about-us"
+                                    color="gradient"
+                                    shape="rectangle"
+                                >
+                                    Learn More
+                                    <i
+                                        sx={{ ml: "8px" }}
+                                        className="flaticon-right-arrow"
+                                    ></i>
                                 </Button>
                             </AboutContent>
                         </Col>

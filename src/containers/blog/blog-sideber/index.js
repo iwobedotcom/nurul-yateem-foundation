@@ -22,7 +22,7 @@ const BlogSidebar = () => {
             </Widget>
 
             <Widget>
-                <WidgetTitle>Blog Categories</WidgetTitle>
+                <WidgetTitle>News Categories</WidgetTitle>
                 <SeparatorLine>
                     <StaticImage
                         className="me-1"

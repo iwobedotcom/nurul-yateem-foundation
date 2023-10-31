@@ -16,6 +16,7 @@ export const MobileNavitem = styled.li`
         color: #001d23;
         display: block;
         width: 100%;
+        font-family: ${themeGet("fonts.primary")};
         font-size: 17px;
         font-weight: 500;
         line-height: 22px;

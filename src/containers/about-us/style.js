@@ -65,7 +65,7 @@ export const Area = styled.section`
             0,
             0,
             0,
-            0.5
+            0.7
         ); /* Adjust the color and opacity as needed */
     }
     & .img-one {
@@ -112,7 +112,7 @@ export const LayerStyle = styled.div`
 
 export const AboutTextStyle = styled.p`
     color: ${(props) => (props.primary ? themeGet("colors.white") : "")};
-    font-family: "Yeseva One", cursive;
+    font-family: "Calibri", cursive;
     font-size: 22px;
     line-height: 1.364;
     margin-bottom: 26px;
@@ -185,8 +185,9 @@ export const Title = styled.h3`
 `;
 
 export const ITitle = styled.h3`
-    color: ${themeGet("colors.primary")};
+    color: ${(props) => (props.primary ? themeGet("colors.primary") : "")};
     font-size: 38px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 28px;
     position: relative;
@@ -440,3 +441,24 @@ export const ChangeNumber = styled.div`
         font-size: 20px;
     }
 `;
+
+export const ImpactTextStyle = styled.p`
+    /* color: ${themeGet("colors.white")}; */
+    font-family: "Calibri", cursive;
+    text-align: start;
+    font-size: 22px;
+    line-height: 1.364;
+    margin-bottom: 26px;
+    margin-right: -10px;
+    position: relative;
+    /* &:before {
+        background-color: ${themeGet("colors.primary")};
+        content: "";
+        height: 75px;
+        left: -29px;
+        position: absolute;
+        top: 7px;
+        width: 4px;
+    } */
+`;
+export const ImpactContent = styled.div``;

@@ -133,7 +133,7 @@ exports.createPages = ({ actions, graphql }) => {
         posts.forEach(({ node }) => {
             createPage({
                 // path: node.fields.slug,
-                path: `/blog/${node.fields.slug}`,
+                path: `/news/${node.fields.slug}`,
                 component: templates.singlePost,
                 context: {
                     // Pssing slug for Templates to use to get post
@@ -235,7 +235,7 @@ exports.createPages = ({ actions, graphql }) => {
             if (inFirstPage) return;
 
             createPage({
-                path: `/blog/${currentPage}`,
+                path: `/news/${currentPage}`,
                 component: templates.postList,
                 context: {
                     limit: postsPerPage,

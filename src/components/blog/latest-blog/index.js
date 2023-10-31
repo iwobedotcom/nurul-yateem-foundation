@@ -96,8 +96,9 @@ const LatestBlogItem = ({
                 <PostFooter className="PostFooter">
                     <Button
                         path={`/${slug}`}
-                        size="xsmall"
-                        color="border-gradient"
+                        size="small"
+                        color="gradient"
+                        shape="rectangle"
                     >
                         Details
                     </Button>

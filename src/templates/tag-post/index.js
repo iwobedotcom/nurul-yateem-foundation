@@ -13,12 +13,12 @@ const TagPosts = ({ data, location, pageContext }) => {
 
     return (
         <Layout>
-            <SEO title={"Blog Tags Post"} pathname="/" />
+            <SEO title={"News Tags"} pathname="/" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                crumbLabel="Blog Tag Post"
-                title="Blog Tag Post"
+                crumbLabel="News Tags"
+                title="News Tags"
             />
             <BlogDetailsArea>
                 <Container>
