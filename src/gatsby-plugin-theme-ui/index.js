@@ -31,7 +31,7 @@ const theme = {
     fontSize: {
         body: "18px",
         h1: ["30px", "38px", "38px", "50px", "60px", "75px"],
-        h2: ["30px", "36px", "40px", "50px"],
+        h2: ["25px", "30px", "36px", "40px", "50px"],
         h3: ["22px", "24px", "38px"],
         h4: ["20px", "22px", "30px"],
         h5: ["18px", "20px", "24px"],

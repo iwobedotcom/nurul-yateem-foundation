@@ -65,42 +65,15 @@ const AboutArea = () => {
             <Area>
                 <Container>
                     <Row>
-                        <Col lg={9}>
-                            <SectionTitle
-                                sx={{ mb: "30px" }}
-                                showImage={false}
-                                title={title}
-                                subTitle={subTitle}
-                            />
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col lg={6} xl={7}>
+                        <Col lg={6} xl={6}>
                             <LayerStyle>
                                 <Thumb>
                                     <Row className="m-0">
-                                        <Col sm={4} md={4} xl={4} lg={4}>
-                                            <Tilt
-                                                className=" js-tilt"
-                                                scale={1.04}
-                                                tiltReverse={true}
-                                                tiltMaxAngleX={15}
-                                                tiltMaxAngleY={15}
-                                                perspective={3000}
-                                                transitionSpeed={4000}
-                                            >
-                                                <GatsbyImage
-                                                    image={imageOne}
-                                                    className="img-one"
-                                                    alt="Nurul-Yateem Foundation"
-                                                />
-                                            </Tilt>
-                                        </Col>
                                         <Col
-                                            sm={8}
-                                            md={8}
+                                            sm={12}
+                                            md={12}
                                             lg={12}
-                                            xl={8}
+                                            xl={12}
                                             className="tilt-animation"
                                         >
                                             <Tilt
@@ -124,7 +97,13 @@ const AboutArea = () => {
                                 </Thumb>
                             </LayerStyle>
                         </Col>
-                        <Col lg={6} xl={5}>
+                        <Col lg={6} xl={6}>
+                            <SectionTitle
+                                sx={{ mb: "30px" }}
+                                showImage={false}
+                                title={title}
+                                subTitle={subTitle}
+                            />
                             <AboutContent>
                                 <AboutTextStyle>{content1}</AboutTextStyle>
                                 {/* <LlistIconStyle>
@@ -157,6 +136,7 @@ const AboutArea = () => {
                                 <Button
                                     path="/about-us"
                                     color="gradient"
+                                    size="small"
                                     shape="rectangle"
                                 >
                                     Learn More

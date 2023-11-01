@@ -2,11 +2,11 @@
     {
         "section_title": {
             "subTitle": "About Us.",
-            "title": "<span>Nurul-Yateem Foundation</span> is passionately devoted to orphanage and children's welfare, fostering a lasting legacy of compassion and empowerment in the lives of countless young ones in need."
+            "title": "Nurul-Yateem Foundation is passionately devoted to orphanage and children's welfare."
         },
         "image1": "../images/about/1.jpg",
-        "image2": "../images/about/2.jpg",
-        "content1": "We are committed to children's welfare, fostering a legacy of compassion and empowerment. Our dedication nurtures and empowers those in need, providing the support and opportunities they deserve.",
+        "image2": "../images/about/2.png",
+        "content1": "We are committed to children's welfare, fostering a legacy of compassion and empowerment. Our dedication nurtures and empowers those in need, providing the support and opportunities they deserve.",
         "listText1": "",
         "listText2": ""
     }

@@ -4,17 +4,19 @@ import aboutBg from "@data/images/about/bg.jpg";
 export const SectionArea = styled.div`
     background-color: ${themeGet("colors.white")};
     position: relative;
-    padding: 65px 0 0;
+    padding: 75px 0 0;
 `;
 
 export const Area = styled.section`
-    background-image: url(${aboutBg});
+    /* background-image: url(${aboutBg}); */
+    background-color: #f9f9f9;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     position: relative;
-    padding: 46px 0 45px;
-    ${device.small} {
+    padding-top: 92px;
+    padding-bottom: 92px;
+    /* ${device.small} {
         padding: 48px 0 48px;
     }
     ${device.medium} {
@@ -25,21 +27,7 @@ export const Area = styled.section`
     }
     ${device.xlarge} {
         padding: 146px 0 15px;
-    }
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(
-            0,
-            0,
-            0,
-            0.7
-        ); /* Adjust the color and opacity as needed */
-    }
+    } */
     & .img-one {
         display: none !important;
         ${device.small} {
@@ -52,9 +40,10 @@ export const Area = styled.section`
             display: inline-block !important;
         }
     }
-    h2 {
-        color: ${themeGet("colors.white")};
-    }
+    /* h2 {
+        color: ${themeGet("colors.text")};
+        font-size: ${themeGet("colors.h2[3]")};
+    } */
 `;
 
 export const LayerStyle = styled.div`
@@ -95,24 +84,27 @@ export const LayerStyle = styled.div`
 export const Thumb = styled.div``;
 
 export const AboutTextStyle = styled.p`
-    color: ${themeGet("colors.white")};
+    color: ${themeGet("colors.text")};
     font-family: "Calibri", cursive;
     font-size: 22px;
     line-height: 1.364;
     margin-bottom: 26px;
     margin-right: -10px;
+    margin-left: 20px;
     position: relative;
     &:before {
         background-color: ${themeGet("colors.primary")};
         content: "";
-        height: 75px;
-        left: -29px;
+        height: 105px;
+        left: -18px;
         position: absolute;
-        top: 7px;
+        top: 9px;
         width: 4px;
     }
 `;
-export const AboutContent = styled.div``;
+export const AboutContent = styled.div`
+    padding-bottom: 45px;
+`;
 
 export const LlistIconStyle = styled.ul`
     align-items: center;
