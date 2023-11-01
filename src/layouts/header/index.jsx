@@ -103,9 +103,9 @@ const Header = () => {
                                     </MobileMenuBtn>
                                     <ButtonBoxArea>
                                         <Button
-                                            sx={{ ml: "15px" }}
+                                            sx={{ ml: "10px" }}
                                             type="button"
-                                            size="small"
+                                            size="medium"
                                             path="#"
                                             color="light"
                                         >
@@ -115,7 +115,7 @@ const Header = () => {
                                         <Button
                                             sx={{ ml: "15px" }}
                                             type="button"
-                                            size="small"
+                                            size="medium"
                                             path="#"
                                             color="gradient"
                                             shape="rectangle"

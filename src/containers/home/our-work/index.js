@@ -44,7 +44,6 @@ const OurWorkArea = () => {
                                 <Col lg={4} md={6} sm={6} key={data.node.id}>
                                     <ServiceItem
                                         title={data.node.title}
-                                        subtitle={data.node.subtitle}
                                         parText={data.node.parText}
                                         slug={data.node.fields.slug}
                                         itemClassName={data.node.itemClassName}

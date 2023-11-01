@@ -1,7 +1,7 @@
 const theme = {
     colors: {
         transparent: "transparent !important",
-        primary: "#3e8914",
+        primary: "#006837",
         text: "#333",
         heading: "#414141",
         border: "#E0E0E0",
@@ -26,7 +26,7 @@ const theme = {
         alabaster: "#fafafa",
         mystic: "#e1e8ed",
         facebook: "#3b5998",
-        gradient: "linear-gradient(to right, #3e8914 0%, #3e8914 100%)",
+        gradient: "linear-gradient(to right, #006837 0%, #006837 100%)",
     },
     fontSize: {
         body: "18px",
@@ -40,6 +40,7 @@ const theme = {
     fonts: {
         body: `'Calibri', sans-serif`,
         heading: `'Poppins Extrabold', sans-serif`,
+        secondary: `'Poppins Bold', sans-serif`,
         primary: `'Poppins',  sans-serif`,
     },
     fontWeights: {

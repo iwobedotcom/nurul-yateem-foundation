@@ -4,31 +4,21 @@ import itemTwoBg from "@data/images/services/2.jpg";
 import itemThreeBg from "@data/images/services/3.jpg";
 
 export const IconBoxitem = styled.div`
-    background-image: url(${itemOneBg});
+    /* background-image: url(${itemOneBg}); */
+    background-color: ${themeGet("colors.white")};
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     padding: 60px 25px; /* Increase the top and bottom padding to adjust the height */
     margin-bottom: 30px;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(
-            0,
-            0,
-            0,
-            0.7
-        ); /* Adjust the color and opacity as needed */
-    }
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
     &.item-two {
-        background-image: url(${itemTwoBg});
+        /* background-image: url(${itemTwoBg}); */
     }
     &.item-three {
-        background-image: url(${itemThreeBg});
+        /* background-image: url(${itemThreeBg}); */
     }
     ${device.medium} {
         padding: 60px 25px; /* Increase the top and bottom padding for medium devices */
@@ -87,10 +77,12 @@ export const IconBox = styled.div`
 
 export const Title = styled.h4`
     position: relative;
-    color: ${themeGet("colors.white")};
+    color: ${themeGet("colors.primary")};
     z-index: 1;
     font-size: 24px;
+    font-family: ${themeGet("fonts.secondary")};
     line-height: 1.185;
+    margin-top: 10px;
     margin-bottom: 5px;
     ${device.medium} {
         font-size: 28px;
@@ -134,7 +126,7 @@ export const SeparatorLine = styled.div`
 export const ParText = styled.p`
     position: relative;
     z-index: 1;
-    color: ${themeGet("colors.white")};
+    color: ${themeGet("colors.text")};
     line-height: 1.667;
     margin-bottom: 32px;
 `;

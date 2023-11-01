@@ -236,7 +236,7 @@ export const createStyles = (theme, color, size, shape, variant) => css`
     css`
         font-size: 15px;
         min-width: 150px;
-        padding: 10px 18px;
+        padding: 16px 18px;
         font-width: 500;
         font-size: ${theme.fontSize.body} ${device.small} {
             font-size: 13px;
@@ -284,7 +284,7 @@ export const createStyles = (theme, color, size, shape, variant) => css`
 
      ${shape === "rectangle" &&
     css`
-        border-radius: 0px;
+        border-radius: 6px;
     `}
 
     ${variant === "outlined" &&

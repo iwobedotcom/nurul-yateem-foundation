@@ -27,25 +27,25 @@ const ServiceItem = ({
     return (
         <IconBoxitem className={`${itemClassName} mb-5`}>
             <IconBoxTop>
-                {/* <IconBox>
+                <IconBox>
                     <GatsbyImage image={iconImg} alt="" />
-                </IconBox> */}
+                </IconBox>
                 <Title>{title}</Title>
                 <SubTitle>{subtitle}</SubTitle>
             </IconBoxTop>
             <ContentBox>
-                <SeparatorLine>
+                {/* <SeparatorLine>
                     <StaticImage
                         src="../../data/images/shape/line-s1.png"
                         alt="Nurul-Yateem Foundation"
                     />
-                </SeparatorLine>
+                </SeparatorLine> */}
                 <ParText>{parText}</ParText>
                 <Button
                     path={`/our-work/${slug}`}
                     size="small"
-                    variant="outlined"
-                    color="light"
+                    // variant="outlined"
+                    color="gradient"
                     shape="rectangle"
                     sx={{ color: "#fff" }}
                 >
