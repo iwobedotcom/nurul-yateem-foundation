@@ -81,10 +81,6 @@ const Hero = () => {
                         <Col md={6} lg={6} xl={7}>
                             <Content>
                                 <SubTitle>
-                                    {/* <StaticImage
-                                        src="../../../data/images/icons/1.png"
-                                        alt="Nurul-Yateem Foundation"
-                                    /> */}
                                     <h6>{subTitle}</h6>
                                 </SubTitle>
                                 <HeroTitleWrap>
@@ -104,16 +100,7 @@ const Hero = () => {
                                         shape="rectangle"
                                     >
                                         Sponsor a Child Today{" "}
-                                        <i className="flaticon-right-arrow"></i>
                                     </Button>
-                                    {/* <Button
-                                        path="/donate"
-                                        variant="outlined"
-                                        sx={{ ml: "10px" }}
-                                    >
-                                        Sponsor a Child Today{" "}
-                                        <i className="flaticon-right-arrow"></i>
-                                    </Button> */}
                                 </div>
                             </Content>
                         </Col>

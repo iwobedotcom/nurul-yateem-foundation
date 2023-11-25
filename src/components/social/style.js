@@ -11,6 +11,6 @@ export const SectionArea = styled.section`
         padding: 109px 0 292px;
     }
 `;
-export const BrandLogoContent = styled.div`
+export const SocialIconContent = styled.div`
     margin: 16px -27px 0;
 `;

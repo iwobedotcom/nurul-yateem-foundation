@@ -106,33 +106,6 @@ const AboutArea = () => {
                             />
                             <AboutContent>
                                 <AboutTextStyle>{content1}</AboutTextStyle>
-                                {/* <LlistIconStyle>
-                                    <ListLi>
-                                        <StaticImage
-                                            className="icon-img"
-                                            src="../../../data/images/icons/check-double-line.png"
-                                            alt="Nurul-Yateem Foundation"
-                                        />
-                                        <ListText
-                                            dangerouslySetInnerHTML={{
-                                                __html: listText1,
-                                            }}
-                                        />
-                                    </ListLi>
-                                    <ListLi className="line-center"></ListLi>
-                                    <ListLi>
-                                        <StaticImage
-                                            className="icon-img"
-                                            src="../../../data/images/icons/check-double-line.png"
-                                            alt="Nurul-Yateem Foundation"
-                                        />
-                                        <ListText
-                                            dangerouslySetInnerHTML={{
-                                                __html: listText2,
-                                            }}
-                                        />
-                                    </ListLi>
-                                </LlistIconStyle> */}
                                 <Button
                                     path="/about-us"
                                     color="gradient"
@@ -140,10 +113,6 @@ const AboutArea = () => {
                                     shape="rectangle"
                                 >
                                     Learn More
-                                    <i
-                                        sx={{ ml: "8px" }}
-                                        className="flaticon-right-arrow"
-                                    ></i>
                                 </Button>
                             </AboutContent>
                         </Col>

@@ -43,16 +43,16 @@ const Footer = () => {
                 }
                 footerAbout
                 menuTitle
-                subscribeTitle
-                subscribeSubTitle
+                socialTitle
+                socialSubTitle
             }
         }
     `);
     const {
         footerAbout,
         menuTitle,
-        subscribeTitle,
-        subscribeSubTitle,
+        socialTitle,
+        socialSubTitle,
         quickLink,
         quickLinkTwo,
         footerShapeImage,
@@ -133,9 +133,9 @@ const Footer = () => {
                         </Col>
                         <Col sm={6} md={6} lg={4} xl={4}>
                             <WidgetItem>
-                                <WidgetTitle>{subscribeTitle}</WidgetTitle>
+                                <WidgetTitle>{socialTitle}</WidgetTitle>
                                 <WidgetSubTitle>
-                                    {subscribeSubTitle}
+                                    {socialSubTitle}
                                 </WidgetSubTitle>
                                 <NewsletterForm />
                             </WidgetItem>

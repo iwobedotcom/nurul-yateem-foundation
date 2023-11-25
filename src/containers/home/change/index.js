@@ -49,7 +49,7 @@ const ChangeArea = () => {
         <SectionArea>
             <Container>
                 <Row>
-                    <Col lg={7} xxl={7}>
+                    <Col lg={12} xxl={12}>
                         <div
                             className="content"
                             style={{ marginBottom: "25px" }}
@@ -67,16 +67,15 @@ const ChangeArea = () => {
                                     ],
                                 }}
                                 title={title}
-                                subTitle={subTitle}
+                                showImage={false}
+                                // subTitle={subTitle}
                             />
                             <Button path="#" color="gradient" shape="rectangle">
                                 Become a Guardian{" "}
-                                <i className="flaticon-right-arrow"></i>
                             </Button>
-                            {/* <DonateForm /> */}
                         </div>
                     </Col>
-                    <Col lg={4} className="col-xxl-4 offset-xxl-1">
+                    {/* <Col lg={4} className="col-xxl-4 offset-xxl-1">
                         <ChangeConten>
                             <div className="thumb-bg-layer"></div>
                             <ChangeInfo>
@@ -104,7 +103,7 @@ const ChangeArea = () => {
                                 </ChangeItems>
                             </ChangeInfo>
                         </ChangeConten>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </SectionArea>

@@ -92,6 +92,27 @@ const Header = () => {
                             <HeaderMenuArea>
                                 <MainMenu allmenuData={menuData} />
 
+                                <ButtonBoxArea>
+                                    <Button
+                                        sx={{ ml: "10px" }}
+                                        type="button"
+                                        size="small"
+                                        path="#"
+                                        color="light"
+                                    >
+                                        Login{" "}
+                                    </Button>
+                                    <Button
+                                        sx={{ ml: "15px" }}
+                                        type="button"
+                                        size="small"
+                                        path="#"
+                                        color="gradient"
+                                        shape="rectangle"
+                                    >
+                                        Become a Sponsor{" "}
+                                    </Button>
+                                </ButtonBoxArea>
                                 <HeaderActionArea>
                                     <MobileMenuBtn
                                         onClick={ofcanvasHandaler}
@@ -101,52 +122,6 @@ const Header = () => {
                                         <span></span>
                                         <span></span>
                                     </MobileMenuBtn>
-                                    <ButtonBoxArea>
-                                        <Button
-                                            sx={{ ml: "10px" }}
-                                            type="button"
-                                            size="medium"
-                                            path="#"
-                                            color="light"
-                                        >
-                                            Login{" "}
-                                            {/* <i className="flaticon-right-arrow"></i> */}
-                                        </Button>
-                                        <Button
-                                            sx={{ ml: "15px" }}
-                                            type="button"
-                                            size="medium"
-                                            path="#"
-                                            color="gradient"
-                                            shape="rectangle"
-                                        >
-                                            Become a Sponsor{" "}
-                                            {/* <i className="flaticon-right-arrow"></i> */}
-                                        </Button>
-                                    </ButtonBoxArea>
-                                    {/* <div
-                                        className="btn-wrp"
-                                        sx={{ display: "flex" }}
-                                    >
-                                        <Button
-                                            path=""
-                                            size="medium"
-                                            variant="outlined"
-                                            sx={{ ml: "10px" }}
-                                        >
-                                            Donate Now{" "}
-                                            <i className="flaticon-right-arrow"></i>
-                                        </Button>
-                                        <Button
-                                            path=""
-                                            size="small"
-                                            variant="outlined"
-                                            sx={{ ml: "10px" }}
-                                        >
-                                            Donate Now{" "}
-                                            <i className="flaticon-right-arrow"></i>
-                                        </Button>
-                                    </div> */}
                                 </HeaderActionArea>
                             </HeaderMenuArea>
                         </Col>

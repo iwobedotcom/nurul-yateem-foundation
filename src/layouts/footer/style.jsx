@@ -206,3 +206,7 @@ export const FooterShapeLayer = styled.div`
         max-width: none;
     }
 `;
+
+export const BrandLogoContent = styled.div`
+    margin: 16px -27px 0;
+`;

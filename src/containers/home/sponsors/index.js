@@ -28,7 +28,7 @@ const SponsorsArea = () => {
         <SectionArea>
             <Container>
                 <Row>
-                    <Col
+                    {/* <Col
                         sm={{ span: 8, offset: 2 }}
                         md={{ sapn: 8, offset: 2 }}
                         lg={{ span: 4, offset: 0 }}
@@ -42,8 +42,8 @@ const SponsorsArea = () => {
                             }}
                             title={"Our Current Sponsors."}
                         />
-                    </Col>
-                    <Col xl={{ span: 7, offset: 1 }} lg={8}>
+                    </Col> */}
+                    {/* <Col xl={{ span: 7, offset: 1 }} lg={8}>
                         <BrandLogoContent>
                             <Row className="row row-cols-3 row-cols-sm-5">
                                 {sponsorsData &&
@@ -61,7 +61,7 @@ const SponsorsArea = () => {
                                     })}
                             </Row>
                         </BrandLogoContent>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </SectionArea>

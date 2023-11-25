@@ -16,9 +16,9 @@ import {
 } from "./style";
 
 const ImpactArea = () => {
-    const impactData = useStaticQuery(graphql`
-        query ImpactQuery {
-            impactJson {
+    const InterventionData = useStaticQuery(graphql`
+        query InterventionQuery {
+            interventionJson {
                 section_title {
                     title
                     subTitle
@@ -41,7 +41,7 @@ const ImpactArea = () => {
         image,
         content1,
         content2,
-    } = impactData.impactJson;
+    } = InterventionData.interventionJson;
 
     const imageOne = getImage(image);
 
@@ -64,6 +64,7 @@ const ImpactArea = () => {
                                 }}
                                 title={title}
                                 subTitle={subTitle}
+                                showImage={false}
                             />
                         </div>
                     </Col>

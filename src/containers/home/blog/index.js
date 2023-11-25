@@ -47,6 +47,7 @@ const LatestBlog = () => {
                             }}
                             subTitle={"Our Newsfeed."}
                             title={"Discover Insights, Stories, and Updates"}
+                            showImage={false}
                         />
                     </Col>
                 </Row>

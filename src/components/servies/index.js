@@ -50,7 +50,7 @@ const ServiceItem = ({
                     sx={{ color: "#fff" }}
                 >
                     Learn More{" "}
-                    <i sx={{ ml: "8px" }} className="flaticon-right-arrow"></i>
+                    {/* <i sx={{ ml: "8px" }} className="flaticon-right-arrow"></i> */}
                 </Button>
             </ContentBox>
         </IconBoxitem>

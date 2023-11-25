@@ -4,6 +4,7 @@ import styled, { themeGet, device } from "@theme/utils";
 import DonnerImag from "@data/images/photos/bg-donate1.jpg";
 
 export const SectionArea = styled.section`
+    text-align: center;
     overflow: hidden;
     padding: 80px 0;
     background-color: #001d23 !important;

@@ -92,7 +92,7 @@ export const HeroTitleWrap = styled.div`
         position: relative;
         z-index: 1;
         // font-size: ${themeGet("fontSize.h1.5")};
-        font-size: 80px;
+        font-size: 70px;
         line-height: 1.2;
         // ${device.medium} {
         //     font-size: ${themeGet("fontSize.h1.2")};
