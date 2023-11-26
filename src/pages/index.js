@@ -9,6 +9,7 @@ import ImpactArea from "../containers/home/intervention";
 import ChangeArea from "../containers/home/change";
 import LatestBlog from "../containers/home/blog";
 import SponsorsArea from "../containers/home/sponsors";
+import KidsArea from "../containers/kids";
 
 const IndexPage = () => {
     return (
@@ -17,7 +18,8 @@ const IndexPage = () => {
             <Hero />
             <OurWorkArea />
             <AboutArea />
-            <ImpactArea />
+            <KidsArea />
+            {/* <ImpactArea /> */}
             <ChangeArea />
             <LatestBlog />
             <SponsorsArea />

@@ -95,7 +95,7 @@ const Hero = () => {
                                     sx={{ display: "flex" }}
                                 >
                                     <Button
-                                        path="/causes"
+                                        path="#"
                                         color="gradient"
                                         shape="rectangle"
                                     >

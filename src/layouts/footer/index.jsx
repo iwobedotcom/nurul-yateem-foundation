@@ -22,6 +22,7 @@ import {
 } from "./style";
 import NewsletterForm from "../../components/newsletter-form";
 import FooterLogo from "../../components/logo-footer";
+import SocialsArea from "../../components/social";
 
 const Footer = () => {
     const footerQuery = useStaticQuery(graphql`
@@ -136,8 +137,8 @@ const Footer = () => {
                                 <WidgetTitle>{socialTitle}</WidgetTitle>
                                 <WidgetSubTitle>
                                     {socialSubTitle}
+                                    <SocialsArea />
                                 </WidgetSubTitle>
-                                <NewsletterForm />
                             </WidgetItem>
                         </Col>
                     </Row>

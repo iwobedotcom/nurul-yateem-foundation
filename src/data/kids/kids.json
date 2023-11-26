@@ -1,0 +1,40 @@
+[
+    {
+        "id": "kids",
+        "section_title": {
+            "title": "Meet the Kids at <span>Nurul-Yateem Foundation</span>"
+        },
+        "kids": [
+            {
+                "images": "../../data/images/kids/1.jpg",
+                "name": "Musa Abdullahi",
+                "age": "13"
+            },
+            {
+                "images": "../../data/images/kids/2.jpg",
+                "name": "Susan Abdulkadir",
+                "age": "14"
+            },
+            {
+                "images": "../../data/images/kids/3.jpg",
+                "name": "Adam Fater",
+                "age": "14"
+            },
+            {
+                "images": "../../data/images/kids/1.jpg",
+                "name": "Musa Abdullahi",
+                "age": "13"
+            },
+            {
+                "images": "../../data/images/kids/2.jpg",
+                "name": "Susan Abdulkadir",
+                "age": "14"
+            },
+            {
+                "images": "../../data/images/kids/3.jpg",
+                "name": "Adam Fater",
+                "age": "14"
+            }
+        ]
+    }
+]
