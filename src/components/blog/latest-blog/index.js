@@ -95,7 +95,7 @@ const LatestBlogItem = ({
                 </LatestBlogContentInner>
                 <PostFooter className="PostFooter">
                     <Button
-                        path={`/${slug}`}
+                        path={`/news/${slug}`}
                         size="small"
                         color="gradient"
                         shape="rectangle"

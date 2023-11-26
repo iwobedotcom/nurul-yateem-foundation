@@ -1,0 +1,66 @@
+[
+    {
+        "text": "Home",
+        "link": "/",
+        "isSubmenu": false
+    },
+    {
+        "text": "About Us",
+        "link": "/about-us",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Our Identity",
+                "link": "/about-us/our-identity"
+            },
+            {
+                "text": "Our Activities",
+                "link": "/about-us/our-activities"
+            },
+            {
+                "text": "Vision & Mission",
+                "link": "/about-us/vision-and-mission"
+            },
+
+            {
+                "text": "Guiding Principles",
+                "link": "/about-us/guiding-principles"
+            }
+        ]
+    },
+    {
+        "text": "Our Work",
+        "link": "/our-work",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Child Sponsorship",
+                "link": "/our-work/child-sponsorship"
+            },
+            {
+                "text": "Fostering",
+                "link": "/our-work/fostering"
+            },
+
+            {
+                "text": "Healthcare Assistance",
+                "link": "/our-work/healthcare-assistance"
+            },
+
+            {
+                "text": "Counselling & Support",
+                "link": "/our-work/counselling-and-support"
+            }
+        ]
+    },
+    {
+        "text": "News",
+        "link": "/news",
+        "isSubmenu": false
+    },
+    {
+        "text": "Contact Us",
+        "link": "/contact-us",
+        "isSubmenu": false
+    }
+]
