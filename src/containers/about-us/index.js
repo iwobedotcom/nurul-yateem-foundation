@@ -148,7 +148,7 @@ const AboutPageArea = () => {
                                 sx={{ mb: "30px" }}
                                 showImage={false}
                                 title={title}
-                                subTitle={subTitle}
+                                // subTitle={subTitle}
                             />
                         </Col>
                     </Row>
