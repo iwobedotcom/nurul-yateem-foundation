@@ -49,8 +49,8 @@ module.exports = {
             resolve: `gatsby-plugin-breadcrumb`,
             options: {
                 useAutoGen: true,
-                autoGenHomeLabel: `home`,
-                exclude: [`/dev-404-page`, `/404`, `/404.html`],
+                autoGenHomeLabel: `Home`,
+                exclude: [`/dev-404-page`, `/404`, `/404.html`, `/`],
                 useClassNames: true,
             },
         },

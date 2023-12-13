@@ -7,7 +7,9 @@ const PageBreadcrumb = ({ title, pageContext }) => {
     const {
         breadcrumb: { crumbs },
     } = pageContext;
-    const disableLinks = [
+
+    // Paths to be excluded from breadcrumbs
+    const excludePaths = [
         "/events",
         "/category",
         "/profile",
@@ -18,18 +20,23 @@ const PageBreadcrumb = ({ title, pageContext }) => {
         "/blog/page",
         "/blogs",
         "/services",
+        "/about-us",
+        "/our-work",
+        "/",
     ];
+
+    // Filter out crumbs based on the excludePaths array
+    const filteredCrumbs = crumbs.filter(
+        (crumb) => !excludePaths.includes(crumb.pathname)
+    );
+
     return (
         <PageBreadcrumbWrap>
             <Container>
                 <Row>
                     <Col>
                         <PageTitleContent>
-                            <Breadcrumb
-                                title={title}
-                                crumbs={crumbs}
-                                disableLinks={disableLinks}
-                            />
+                            <Breadcrumb title={title} crumbs={filteredCrumbs} />
                         </PageTitleContent>
                     </Col>
                 </Row>
@@ -37,6 +44,7 @@ const PageBreadcrumb = ({ title, pageContext }) => {
         </PageBreadcrumbWrap>
     );
 };
+
 PageBreadcrumb.propTypes = {
     title: PropTypes.string,
     crumbLabel: PropTypes.string,
